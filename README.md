@@ -1,11 +1,14 @@
 # WebRTC-Screen-Share
 Screen-Sharing using WebRTC
 
-Start server by
-localhost:3000
+# Docker
+Docker may help if any issues with env setup: docker build . -t "IMAGE_NAME" 
 
-To share 
+# run in local node server
+node server.js
+
+# To share 
 localhost:3000/server
 
-To view
+# To view
 localhost:3000/viewer
